@@ -66,7 +66,6 @@
     }
 
     service.buyItem = function (itemIndex) {
-      console.log(itemIndex);
       if (itemIndex != -1) {
         var itemToBuy = toBuyItems.splice(itemIndex, 1);
         boughtItems.push(itemToBuy[0]);
