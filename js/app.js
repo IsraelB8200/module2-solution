@@ -18,6 +18,14 @@
       name: "Chocolates",
       quantity : "5"
     },
+    {
+      name: "Suger",
+      quantity : "2"
+    },
+    {
+      name: "Salt",
+      quantity : "1"
+    },
   ];
 
   angular.module('ShoppingListCheckOff', [])
